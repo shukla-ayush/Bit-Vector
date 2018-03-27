@@ -233,7 +233,7 @@ public class BitVector implements IBitVector{
 	 * 
 	 * @author ashuk
 	 */
-	public class BitIterator implements Iterator<Integer>{
+	private class BitIterator implements Iterator<Integer>{
 
 		// keep track of Bit Vector's index position
 		int index = 0;
